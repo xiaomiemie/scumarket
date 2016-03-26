@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><a href="<?php echo U("Login/index/");?>">请先登录</a>

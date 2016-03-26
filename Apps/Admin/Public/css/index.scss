@@ -1,0 +1,168 @@
+  
+  $color:#5593F2;
+  @mixin wordellipsis(){
+    text-overflow:ellipsis; 
+    white-space:nowrap; 
+    overflow:hidden;
+  }
+  html,body{
+    width: 100%;
+  }
+.main-header{
+  width:100%;
+  height:35px;
+  line-height: 35px;
+  background: #eee;
+  position: fixed;
+  color:$color;
+  top:0; 
+  span{
+    color:$color;
+    font-weight: bold;
+  }
+  ul{
+    list-style: none;
+    float: right;
+   
+    li{
+      float:left;
+      margin-right: 20px;
+      a:link{
+      color:$color;
+    }
+    a{
+      text-decoration: none;
+    }
+    }
+    
+  }
+}
+.clearfloat:after{
+  display:block;
+  clear:both;
+  content:"";
+  visibility:hidden;
+  height:0
+}
+.main-content{
+  margin-top: 40px;
+  #user table{
+    width: 60%;
+    margin:10px auto;
+    tr td{
+      text-align: center
+    }
+  }
+  ul.goodlist{
+    margin:20px auto;
+    li{
+      list-style: none;
+      float: left;
+      width: 220px;
+      margin-right: 10px;
+     small{
+        font-size: 12px;
+      margin-left: 10px;
+      color:#D9534F;
+     }
+    }
+    .goodname{
+      @include wordellipsis()
+      }
+    .gooddetail{
+      color:#ccc;
+      font-size: 12px;
+      @include wordellipsis()
+    }
+    .goodpicsmall{
+      width: 220px;
+      height: 185px;
+      display: inline-block
+    }
+}
+
+.loading{
+  z-index: 10;
+  position: fixed;
+  // border-radius: 10px;
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.3;
+  }
+}
+  .loadnext{
+  clear: both;
+  margin:10px auto;
+  width: 100%;
+  height: 20px;
+  background:#eee;
+  // border-radius: 10px;
+  text-align: center;
+  cursor:pointer;
+  display: none;
+  font-family:"微软雅黑","黑体","宋体";
+}
+
+#user {
+  .usertbody{
+    tr td{
+      vertical-align: middle
+    }
+  }
+  
+  .user-table{
+    height: 440px;
+    margin:20px 0 0 0;
+  }
+  
+  #nav-page{
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    ul{
+      margin-top: -10px;
+    }
+  }
+}//user
+}
+$dialog-width:400px;
+.main-dialog{
+  width: $dialog-width;
+  height: 300px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top: -150px;
+  margin-left: -200px;
+  border-radius:5px;
+  display: none;
+  .dialog-heading{
+    font-weight: bold;
+  }
+ .dialog-submit{
+        margin-right: 30px;
+      }
+  .dialog-body{
+    height:240px;
+    text-align: center;
+    .dialog-text{
+       width: 100%;
+      height: 180px;
+      resize: none;
+    }
+
+  }
+}
+.mask{
+  width: 100%;
+  height: calc(100% - 35px);
+  background:#ccc;
+  opacity: 0.4;
+  filter:alpha(opacity=40);
+  position:absolute;
+  top:35px;
+  left: 0;
+  display: none;
+}

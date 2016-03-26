@@ -1,0 +1,32 @@
+  <header class="header">
+  <span class="logo-name"><img src="__PUBLIC__/image/logoheader.png" alt="川大跳槽市场"/><a href="{:U('Index/index')}">川大跳蚤市场</a></span>
+    <ul class='nav-ul'>
+
+      <if condition="$Think.session.nickname neq ''">
+        <li class='loginnickName'>
+          {$Think.session.nickname}
+          <ul class="menu-ul">
+          
+            <li >
+              <a target="_blank" style="display:block;width: 100%;" href="{:U('Personal/index')}">个人中心</a>
+            </li>
+            <li class="logoutbutton"><a href="{:U('Login/logout')}" style="display:block;width: 100%;">退出</a></li>
+          </ul>
+        </li>
+        <elseif condition="1"/>  
+        <li style="width:50px">
+          <a href=" {:U('Login/index')}">登录</a>
+        </li>
+
+        <else/>  
+        <a href="{:U('Login/index')}">登录</a>
+      </if>
+
+      <li style="width:30px">
+        <a href="{:U('Register/index')}">注册</a>
+      </li>
+      <li style="width:50px">
+        <a style="cursor:pointer" data-toggle="popover" title="支持一下" data-placement="bottom" data-content="该平台免费提供给所有用户，如果您觉得还不错，感谢您的支持！支付宝账号：18328581144@163.com">打赏</a>
+      </li>
+    </ul>
+  </header>

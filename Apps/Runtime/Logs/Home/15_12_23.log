@@ -1,0 +1,307 @@
+[ 2015-12-23T10:30:43+08:00 ] ::1 /design/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.202012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.052002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.461027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.461027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.054003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.054003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.064004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.064004s ]
+
+[ 2015-12-23T10:30:45+08:00 ] ::1 /design/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.029001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.279016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-23T10:31:14+08:00 ] ::1 /design/index.php/home/login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0780s ]
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' D:\xampp2\htdocs\design\Apps\Home\Controller\LoginController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp2\htdocs\design\Apps\Home\Controller\LoginController.class.php 第 13 行.
+SQL: SELECT * FROM `sw_user` WHERE `nickname` = '杨阳测试' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:31:15+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-23T10:31:16+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=3&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1382s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:31:18+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=3&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0010s ]
+
+[ 2015-12-23T10:31:20+08:00 ] ::1 /design/index.php/Home/Item/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( good_id='2' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_user` WHERE ( nickname='杨阳测试' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.1490s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname='杨阳测试' and good_id = '2' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-23T10:47:39+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp2\htdocs\design\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-23T10:47:40+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=3&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:47:43+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=3&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:47:45+08:00 ] ::1 /design/index.php/Home/Item/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( good_id='2' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_user` WHERE ( nickname='杨阳测试' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp2\htdocs\design\Apps\Runtime\Cache\Home\45091a69aca66bd026a6b8c75e20684e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-23T10:47:53+08:00 ] ::1 /design/index.php/Home/Item/addCollection
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+
+[ 2015-12-23T10:48:02+08:00 ] ::1 /design/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-23T10:48:10+08:00 ] ::1 /design/index.php/home/login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' D:\xampp2\htdocs\design\Apps\Home\Controller\LoginController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp2\htdocs\design\Apps\Home\Controller\LoginController.class.php 第 13 行.
+SQL: SELECT * FROM `sw_user` WHERE `nickname` = '杨阳测试' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:48:10+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-23T10:48:10+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=3&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:48:14+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=3&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0000s ]
+
+[ 2015-12-23T10:48:16+08:00 ] ::1 /design/index.php/Home/Item/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( good_id='2' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_user` WHERE ( nickname='杨阳测试' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname='杨阳测试' and good_id = '2' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-23T10:48:19+08:00 ] ::1 /design/index.php/Home/Item/addCollection
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.5430s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname='杨阳测试' and good_id = '2' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `sw_collection` (`good_id`,`nickname`) VALUES ('2','杨阳测试') [ RunTime:1.2991s ]
+

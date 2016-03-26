@@ -1,0 +1,155 @@
+body{
+  // background:#FAFFFF;
+}
+  @mixin wordellipsis(){
+    text-overflow:ellipsis; 
+    white-space:nowrap; 
+    overflow:hidden;
+  }
+.personal{
+  margin-top: 40px;
+  width:100%;
+  .nav-tool{
+    // width: 80%;
+  }
+  .nav-tool ul.nav{
+    width:100%;
+    // display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap:nowrap;
+    flex-flow: row nowrap;
+    
+  }
+  .nav-tool .tab-content{
+    #basicInfo{
+      width: 80%;
+      margin:20px auto;
+    }
+    .isUsed{
+      font-size: 12px;
+      color: red;
+      display: none;
+    };
+    #myGoods{
+      width: 100%;
+      margin:20px auto;
+    }
+    .clearfloat:after{
+      display:block;
+      clear:both;
+      content:"";
+      visibility:hidden;
+      height:0
+    }
+     #myCollection{
+      width: 100%;
+      margin:20px auto;
+    }
+    #updateGood{
+       width: 80%;
+       margin:20px auto;
+       textarea{
+         width: 85%;
+         height: 100px;
+         resize: none;
+       }
+       .remain{
+        font-size: 12px;
+       }
+    }
+    #systemInfo{
+      width: 80%;
+      margin:20px auto;  
+      .infolist{
+        list-style: none;
+        li{
+          border-bottom:1px solid #ccc;
+          margin-top: 10px;
+          color:#ccc;
+          .info-time{
+            text-align: center;
+          }
+        }
+        li.newinfo{
+          color:#000;
+        }
+      }
+    }
+    
+  }
+    .goodlist{
+      margin:0 auto;
+      width: 90%;
+      display: -webkit-flex;
+      display: flex;     
+      -webkit-flex-flow:row wrap;
+      flex-flow:row wrap;
+      -webkit-justify-content: space-start;
+      justify-content: space-start;
+    }
+  .goodlist li{
+  list-style: none;
+  margin-left: 10px;
+  width:200px;
+  small{
+    font-size: 12px;
+  margin-left: 10px;
+  color:#D9534F;
+ }
+ 
+}
+
+
+.goodname{
+@include wordellipsis()
+}
+.gooddetail{
+  color:#ccc;
+  font-size: 12px;
+  @include wordellipsis()
+}
+.goodpicsmall{
+  width: 100%;
+  height: 185px;
+  display: inline-block
+}
+
+.loadnext{
+  clear: both;
+  margin:10px auto;
+  width: 100%;
+  height: 20px;
+  background:#eee;
+  // border-radius: 10px;
+  text-align: center;
+  cursor:pointer;
+  display: none;
+  font-family:"微软雅黑","黑体","宋体";
+}
+}
+
+.loading{
+  z-index: 10;
+  position: fixed;
+  // border-radius: 10px;
+  display: none;
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.3;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .personal .nav-tool ul.nav li{
+    width:70px; 
+  }
+  .personal .goodlist li{
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+}

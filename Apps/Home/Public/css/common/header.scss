@@ -1,0 +1,35 @@
+.topbar{
+  width: 100%;
+  height: 80px;
+  -moz-box-shadow: 0 8px 8px #eee; /* 老的 Firefox */
+box-shadow: 0 8px 8px #eee;
+position:relative;
+
+a.logo-link{
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+    color:#7AABF5;
+}
+.login-link{
+  font-size: 12px;
+  // float: right;
+  right:10px;
+  top:10px;
+  position:absolute;
+  margin-right:10px;
+  margin-top: 20px;
+
+}
+}
+
+//main
+.main-reg{
+  margin: 20px auto;
+  width: 90%;
+  form{
+    font-size:16px;
+  }
+}

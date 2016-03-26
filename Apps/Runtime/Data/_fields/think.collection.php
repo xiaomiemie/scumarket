@@ -1,0 +1,1 @@
+a:5:{i:0;s:8:"nickname";i:1;s:7:"good_id";i:2;s:13:"collection_id";s:3:"_pk";s:13:"collection_id";s:5:"_type";a:3:{s:8:"nickname";s:11:"varchar(20)";s:7:"good_id";s:14:"varchar(10000)";s:13:"collection_id";s:6:"int(1)";}}

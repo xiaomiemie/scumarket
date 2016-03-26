@@ -1,0 +1,52 @@
+.main-item{
+  width: 90%;
+  border:1px solid #ccc;
+  box-shadow:4px 2px 5px #ccc;
+  position: relative;
+  margin:50px auto;
+  padding: 0 10px;
+    font-family:"微软雅黑","黑体","宋体";
+  .name{
+    font-weight: bold;
+  }
+  .price{
+        // font-weight: bold;
+        margin-top: 15px;
+        span{
+          display: inline-block;
+          margin-left: 20px;
+        }
+  }
+  .favorite{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    // background: red;
+    position:absolute;
+    right:20px;
+    top:20px;
+    span{
+      font-size: 40px;
+      // color:#F3B502;
+      cursor: pointer;
+      
+    }
+    .starspan1{
+      color:#eee;
+    }
+    .starspan2{
+      color:#F3B502;
+    }
+  }
+  .imgp{
+    text-align:center;
+    img{
+      width: 80%;
+    }
+  }
+  .detail{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom:1px dashed #ccc;
+  }
+}

@@ -1,0 +1,1330 @@
+[ 2016-03-25T17:44:25+08:00 ] ::1 /design/index.php/home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp2\htdocs\design\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T17:44:26+08:00 ] ::1 /design/index.php/home/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T17:44:30+08:00 ] ::1 /design/index.php/home/index.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.htm
+
+[ 2016-03-25T17:44:42+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp2\htdocs\design\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T17:44:42+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.2200s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T17:45:04+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname D:\xampp2\htdocs\design\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T17:45:04+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T17:45:06+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T17:45:07+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T17:45:07+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T17:45:09+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T17:45:10+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=1&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='1' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='1' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T17:45:11+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T17:45:12+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T17:45:13+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T17:45:13+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=1&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='1' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='1' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T17:45:14+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=4&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:24:29+08:00 ] ::1 /design/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.055003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-03-25T19:24:39+08:00 ] ::1 /design/index.php/home/login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0950s ]
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' D:\xampp2\htdocs\design\Apps\Home\Controller\LoginController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp2\htdocs\design\Apps\Home\Controller\LoginController.class.php 第 13 行.
+SQL: SELECT * FROM `sw_user` WHERE `nickname` = '小咩' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:24:39+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T19:24:40+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:24:43+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:24:44+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:24:45+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:25:32+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T19:25:32+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:25:33+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:26:38+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T19:26:38+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:26:39+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:28:08+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T19:28:08+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:28:09+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:30:52+08:00 ] ::1 /design/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T19:30:53+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:30:55+08:00 ] ::1 /design/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:59:13+08:00 ] ::1 /scumarket/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T19:59:14+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.1330s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:59:15+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=4&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:59:17+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=3&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='3' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T19:59:18+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=4&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T19:59:19+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:08:24+08:00 ] ::1 /scumarket/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T20:08:24+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:08:27+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T20:11:51+08:00 ] ::1 /scumarket/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T20:11:52+08:00 ] ::1 /scumarket/index.php/Home/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T20:12:06+08:00 ] ::1 /scumarket/index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T20:12:06+08:00 ] ::1 /scumarket/index.php/Home/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T20:26:45+08:00 ] ::1 /scumarket/index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T20:26:45+08:00 ] ::1 /scumarket/index.php/Home/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T20:26:48+08:00 ] ::1 /scumarket/index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T20:26:48+08:00 ] ::1 /scumarket/index.php/Home/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T20:26:57+08:00 ] ::1 /scumarket/index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-25T20:26:57+08:00 ] ::1 /scumarket/index.php/Home/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T20:26:58+08:00 ] ::1 /scumarket/index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T20:26:58+08:00 ] ::1 /scumarket/index.php/Home/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:TypeSelect
+
+[ 2016-03-25T20:27:09+08:00 ] ::1 /scumarket/index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T20:27:10+08:00 ] ::1 /scumarket/index.php/Home/index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:27:13+08:00 ] ::1 /scumarket/index.php/Home/search?type=3&keyvalue=&pageSize=8&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Search
+
+[ 2016-03-25T20:27:17+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T20:27:23+08:00 ] ::1 /scumarket/index.php/home/personal/myCollection?pageSize=8&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.2590s ]
+SQL: SELECT `good_id` FROM `sw_collection` WHERE ( nickname = '小咩' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname = '小咩' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE (  `good_id` = '2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:27:24+08:00 ] ::1 /scumarket/index.php/home/personal/myGoodList?pageSize=8&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( nickname='小咩' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` WHERE ( nickname='小咩' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:27:25+08:00 ] ::1 /scumarket/index.php/home/personal/myCollection?pageSize=8&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.0030s ]
+SQL: SELECT `good_id` FROM `sw_collection` WHERE ( nickname = '小咩' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname = '小咩' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE (  `good_id` = '2' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T20:27:42+08:00 ] ::1 /scumarket/index.php/Home/index/typeSelect?pageSize=8&type=4&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='4' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:27:46+08:00 ] ::1 /scumarket/index.php/Home/index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:28:37+08:00 ] ::1 /scumarket/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T20:28:37+08:00 ] ::1 /scumarket/index.php/Home/index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0010s ]
+
+[ 2016-03-25T20:28:39+08:00 ] ::1 /scumarket/index.php/Home/index/typeSelect?pageSize=8&type=0&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='0' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:46:01+08:00 ] ::1 /scumarket/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T20:46:01+08:00 ] ::1 /scumarket/index.php/Home/index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T22:27:58+08:00 ] ::1 /scumarket/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2016-03-25T22:27:59+08:00 ] ::1 /scumarket/index.php/Home/Index/typeSelect?pageSize=8&type=2&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goodtype='2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T22:28:03+08:00 ] ::1 /scumarket/index.php/home/register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:32:54+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.065004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.1210s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.1910s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2016-03-25T23:35:31+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:35:46+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:35:49+08:00 ] ::1 /scumarket/index.php/home/personal/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:pic.html
+
+[ 2016-03-25T23:35:59+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:36:44+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:36:45+08:00 ] ::1 /scumarket/index.php/home/personal/myCollection?pageSize=8&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.0290s ]
+SQL: SELECT `good_id` FROM `sw_collection` WHERE ( nickname = '小咩' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0780s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname = '小咩' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_goods` WHERE (  `good_id` = '2' )  [ RunTime:0.0170s ]
+
+[ 2016-03-25T23:36:47+08:00 ] ::1 /scumarket/index.php/home/personal/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:pic.html
+
+[ 2016-03-25T23:38:34+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:38:35+08:00 ] ::1 /scumarket/index.php/home/personal/myCollection?pageSize=8&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `sw_collection` [ RunTime:0.0060s ]
+SQL: SELECT `good_id` FROM `sw_collection` WHERE ( nickname = '小咩' ) ORDER BY good_id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_collection` WHERE ( nickname = '小咩' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_goods` WHERE (  `good_id` = '2' )  [ RunTime:0.0000s ]
+
+[ 2016-03-25T23:38:36+08:00 ] ::1 /scumarket/index.php/home/pic/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Pic
+
+[ 2016-03-25T23:38:49+08:00 ] ::1 /scumarket/index.php/home/pic/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:pic.html
+
+[ 2016-03-25T23:38:50+08:00 ] ::1 /scumarket/index.php/home/pic/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:pic.html
+
+[ 2016-03-25T23:38:54+08:00 ] ::1 /scumarket/index.php/home/pic/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:pic.html
+
+[ 2016-03-25T23:39:47+08:00 ] ::1 /scumarket/index.php/home/pic/pic.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:pic.html
+
+[ 2016-03-25T23:39:49+08:00 ] ::1 /scumarket/index.php/home/personal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_info` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' ) ORDER BY info_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_info` WHERE ( nickname='小咩' and info_flag='0' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+NOTIC: [8] Use of undefined constant info_flag - assumed 'info_flag' D:\xampp2\htdocs\scumarket\Apps\Runtime\Cache\Home\ec2f62de7273b3912beaf3c71d5dd7c8.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-25T23:39:52+08:00 ] ::1 /scumarket/index.php/home/pic/pic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-25T23:39:52+08:00 ] ::1 /scumarket/index.php/home/pic/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:jquery.min.js
+

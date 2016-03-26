@@ -1,0 +1,17 @@
+.search {
+  margin-top: 60px;
+  text-align: center; }
+
+.select-radius {
+  width: 70px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-right: 0;
+  margin-right: -4px;
+  display: inline-block; }
+
+.input-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 40%;
+  display: inline-block; }

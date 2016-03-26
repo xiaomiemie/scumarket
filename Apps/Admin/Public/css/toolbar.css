@@ -1,0 +1,22 @@
+.toolbar {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer; }
+  .toolbar .toolbar-item {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../image/toolbar.png);
+    background-repeat: no-repeat;
+    background-position: -5px -680px;
+    -webkit-transition: background-position 0.5s linear;
+    -moz-transition: background-position 0.5s linear;
+    -o-transition: background-position 0.5s linear;
+    transition: background-position 0.5s linear; }
+    .toolbar .toolbar-item:hover {
+      background-position: -5px -740px; }
+
+/*# sourceMappingURL=toolbar.css.map */

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.main-item {
+  width: 90%;
+  border: 1px solid #ccc;
+  box-shadow: 4px 2px 5px #ccc;
+  position: relative;
+  margin: 50px auto;
+  padding: 0 10px;
+  font-family: "微软雅黑","黑体","宋体"; }
+  .main-item .name {
+    font-weight: bold; }
+  .main-item .price {
+    margin-top: 15px; }
+    .main-item .price span {
+      display: inline-block;
+      margin-left: 20px; }
+  .main-item .favorite {
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+    .main-item .favorite span {
+      font-size: 40px;
+      cursor: pointer; }
+    .main-item .favorite .starspan1 {
+      color: #eee; }
+    .main-item .favorite .starspan2 {
+      color: #F3B502; }
+  .main-item .imgp {
+    text-align: center; }
+    .main-item .imgp img {
+      width: 80%; }
+  .main-item .detail {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc; }

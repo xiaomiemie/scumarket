@@ -1,0 +1,15 @@
+require.config({
+  paths:{
+    jquery:'../../framework/jquery.min',
+    bootstrap:'../../framework/bootstrap.min',    
+    scrollto:'../scrollto',
+    loadingImg:'../loadingImg',
+    validate:'../validate',
+    mygoodlist:'../mygoodlist',
+    json2:'../../framework/json2',
+    ajaxfileupload:'../../framework/ajaxfileupload',
+    message:'../message',
+    tablepage:'../tablepage',
+    comfn:'../comfn'
+  }
+});
